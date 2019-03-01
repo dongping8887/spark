@@ -57,6 +57,19 @@
     <system>JIRA</system>
     <url>https://issues.apache.org/jira/browse/SPARK</url>
   </issueManagement>
+    <!--modify by dongping 20190115 begin-->
+    <distributionManagement>
+        <repository>
+            <id>nexus-releases</id>
+            <name>nexus releases</name>
+            <url>http://192.168.100.110:8081/repository/maven-releases/</url>
+        </repository>
+        <snapshotRepository>
+            <id>nexus-snapshots</id>
+            <name>nexus snapshots</name>
+            <url>http://192.168.100.110:8081/repository/maven-snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
 
   <mailingLists>
     <mailingList>
